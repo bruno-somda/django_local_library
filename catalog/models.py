@@ -86,7 +86,7 @@ class Author(models.Model):
     
 class Language(models.Model):
 
-    name=models.CharField(max_length=200,unique=True,help_text="Enter the book's natural language (e.g. English, French, Japanese etc.)")
+    name = models.CharField(max_length=200,unique=True,help_text="Enter the book's natural language (e.g. English, French, Japanese etc.)")
     
     def get_absolute_url(self):
         return reverse('language-detail',args=[str(self.id)])

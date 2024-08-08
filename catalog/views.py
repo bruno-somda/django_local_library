@@ -23,3 +23,8 @@ def index(request):
         'num_authors': num_authors,
     }
     return render(request, 'index.html', context=context)
+
+def books(request):
+    pass
+def authors(request):
+    pass
