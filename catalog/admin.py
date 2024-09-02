@@ -21,14 +21,14 @@ class AuthorAdmin(admin.ModelAdmin):
     
 @admin.register(BookInstance)
 class BookInstanceAdmin(admin.ModelAdmin):
-    list_display=['id','due_back','imprint','book','status']
+    list_display=['id','due_back','imprint','book','status','borrower']
 
     fieldsets=(
         (None,{
             'fields':('book','imprint','id')
         }),
         ('Availability',{
-            'fields': ('status','due_back')
+            'fields': ('status','due_back','borrower')
         })
     )
 #admin.site.register(Book,BookAdmin)

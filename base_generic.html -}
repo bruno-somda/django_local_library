@@ -1,0 +1,47 @@
+[33mcommit 2eb0ad88d2c57c43b8b2fdb5b08da488d0256de1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: unknown <brunosomd01@gmail.com>
+Date:   Mon Aug 19 18:45:36 2024 +0000
+
+    login/logout/reset
+
+[33mcommit 63b358d758013494b31e799e2f3f5c5e2e4c57ee[m
+Author: unknown <brunosomd01@gmail.com>
+Date:   Fri Aug 9 14:55:03 2024 +0000
+
+    author et detail
+
+[33mcommit 93180f0b31127390fe4b73b43ffe9ae401fed777[m
+Author: unknown <brunosomd01@gmail.com>
+Date:   Thu Aug 8 15:14:47 2024 +0000
+
+    details
+
+[33mcommit d6578f43dab4f65314ebbe2864f7b91071b0dfd0[m
+Author: unknown <brunosomd01@gmail.com>
+Date:   Thu Aug 8 12:42:26 2024 +0000
+
+    Mise a jour du 08 Août
+
+[33mcommit 198873c1f920e9a348fd63299f3ffd7eb99c09fa[m
+Author: bruno somda <brunosomda01@gmail.com>
+Date:   Fri Jun 7 18:04:25 2024 +0000
+
+    page d'accueil
+
+[33mcommit a676e5400d8cbb4dd2236da214c8febd8bcc50da[m
+Author: bruno somda <brunosomda01@gmail.com>
+Date:   Fri Jun 7 14:28:29 2024 +0000
+
+    admin gestion
+
+[33mcommit 29f22ca99505a0aedd7dc5ba2da9610b50270f34[m
+Author: bruno somda <brunosomda01@gmail.com>
+Date:   Fri May 31 17:04:40 2024 +0000
+
+    add table model
+
+[33mcommit 897944d7bde1ba8c63e60242a5d1fc3e11d1fc16[m
+Author: bruno somda <brunosomda01@gmail.com>
+Date:   Fri May 31 15:23:06 2024 +0000
+
+    first commit
