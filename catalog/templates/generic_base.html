@@ -29,21 +29,34 @@
             <div class="col-sm-10">{% block content %} {% endblock %}</div>
         </div>
         <ul class="sidebar-nav">
+
             {% if user.is_authenticated %}
-            <li>User: {{ user.get_username }}</li>
-         
-            <li><a href="{% url 'borrowed' %}">My Borrowed</a></li>
-         
+                <li>User: {{ user.get_username }}</li>
+            
+                <li><a href="{% url 'borrowed' %}">My Borrowed</a></li>
+               
+          
             <li>
-              <form id="logout-form" method="post" action="{% url 'admin:logout' %}">
+              <form id="logout-form" method="post" action="{% url 'logout' %}">
                 {% csrf_token %}
                 <button type="submit" class="btn btn-link">Logout</button>
               </form>
             </li>
+
             {% else %}
-            <li><a href="{% url 'login' %}? next={{ request.path }}">Login</a></li>
+                <li><a href="{% url 'login' %}? next={{ request.path }}">Login</a></li>
             {% endif %}
         </ul>
+        {% if user.is_staff %}
+            <hr>
+            <ul class="sidebar-nav">
+                <li>Staff</li>
+                <li><a href="{% url 'all-borrowed' %}">All borrowed</a></li>
+                {% if perms.catalog.add_author %}
+                <li><a href="{% url 'author-create' %}">Create author</a></li>
+                {% endif %}
+            </ul>
+            {% endif %}
     </div>
 
 </body>
